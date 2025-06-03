@@ -14,15 +14,14 @@ import java.util.UUID;
 
 import static com.aacfahim.cqrs.config.Constant.PATIENT_COMMAND_BASE_URL;
 import static com.aacfahim.cqrs.config.Constant.PATIENT_CREATED_SUCCESS;
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 @RestController
 @RequestMapping(PATIENT_COMMAND_BASE_URL)
-public class PatientController {
+public class PatientCommandController {
 
     private final IPatientCommandService patientCommandService;
 
-    public PatientController(IPatientCommandService patientCommandService) {
+    public PatientCommandController(IPatientCommandService patientCommandService) {
         this.patientCommandService = patientCommandService;
     }
 

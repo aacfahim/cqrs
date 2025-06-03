@@ -19,6 +19,9 @@ public final class Constant {
 
     // === Messages ===
     public static final String PATIENT_CREATED_SUCCESS = "Patient created successfully.";
+    public static final String DOCTOR_CREATED_SUCCESS = "Doctor created successfully.";
+    public static final String APPOINTMENT_CREATED_SUCCESS = "Appointment created successfully.";
+    public static final String APPOINTMENT_CANCELLED_SUCCESS = "Appointment cancelled successfully.";
     public static final String PATIENT_NOT_FOUND = "Patient not found.";
     public static final String DOCTOR_NOT_FOUND = "Doctor not found.";
     public static final String APPOINTMENT_NOT_FOUND = "Appointment not found.";
